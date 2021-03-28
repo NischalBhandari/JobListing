@@ -17,7 +17,16 @@
               <a class="nav-link" href="create.php">Creat Listing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="createuser.php">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.php">Sign In</a>
+            </li>
+            <li class="nav-item">
+              <span class="nav-link" ><?php if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] == true) { echo "Hello " .$_SESSION["username"];
+                echo '<a class="nav-link" href="logout.php">Sign Out</a>';
+               } else {echo '';} ?></span>
+              
             </li>
           </ul>
         </nav>

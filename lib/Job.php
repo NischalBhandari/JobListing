@@ -78,6 +78,7 @@
 			}
 		}
 
+		//delete a job listing
 		public function delete($id){
 						$this->db->query("DELETE FROM jobs WHERE  id = $id" );
 
@@ -89,6 +90,8 @@
 				return false;
 			}
 		}
+		
+		//update the job listing
 
 		public function update($id,$data){
 			$this->db->query("UPDATE jobs SET 
