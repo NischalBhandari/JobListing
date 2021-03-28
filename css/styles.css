@@ -12,6 +12,16 @@ body {
   padding-left: 1rem;
 }
 
+.quizbox{
+  padding:5%;
+}
+
+.column-left{
+  flex:33%;
+}
+.column-right{
+  flex:66%;
+}
 /* Custom page header */
 .header {
   padding-bottom: 1rem;
@@ -36,9 +46,9 @@ body {
 }
 
 /* Customize container */
-@media (min-width: 48em) {
+@media (min-width: 75em) {
   .container {
-    max-width: 46rem;
+    max-width: 74rem;
   }
 }
 .container-narrow > hr {
