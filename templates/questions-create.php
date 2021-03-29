@@ -1,5 +1,4 @@
-<?php 
-include 'inc/header.php'; ?>
+<?php include 'inc/header.php'; ?>
 
 <h2 class="page-header">Create Question Listing</h2>
 <form method="post" action ="createquestions.php">

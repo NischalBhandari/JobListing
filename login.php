@@ -1,14 +1,8 @@
 <?php include_once 'config/init.php'; ?>
-
-
-<?php
-if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] == true) {
+<?php if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] == true) {
 	header("location:index.php");
 	exit;
 }
-
-
-
 $user = new User;
 
 if(isset($_POST['submit'])){

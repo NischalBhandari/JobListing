@@ -1,5 +1,4 @@
-<?php 
-include 'inc/header.php'; ?>
+<?php include 'inc/header.php'; ?>
 
 <h2 class="page-header">Edit Job Listing</h2>
 <form method="post" action ="edit.php?id=<?php echo $job->id; ?>">

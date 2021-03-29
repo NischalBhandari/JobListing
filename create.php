@@ -1,10 +1,5 @@
 <?php include_once 'config/init.php'; ?>
-
-
-<?php
-
-$job = new Job;
-
+<?php $job = new Job;
 if(isset($_POST['submit'])){
 	$data=array();
 	$data['job_title'] = $_POST['job_title'];

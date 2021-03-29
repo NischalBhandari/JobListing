@@ -1,10 +1,5 @@
 <?php include_once 'config/init.php'; ?>
-
-
-<?php
-
-$quiz = new Quiz;
-
+<?php $quiz = new Quiz;
 if(isset($_POST['submit'])){
 	$data=array();
 	$data['question_statement'] = $_POST['question_statement'];

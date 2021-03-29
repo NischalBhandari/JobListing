@@ -1,5 +1,4 @@
-<?php 
-include 'inc/header.php'; ?>
+<?php include 'inc/header.php'; ?>
 <div class="row">
   <div class="column-left">
     <div class="quizbox">

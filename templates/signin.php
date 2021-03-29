@@ -1,5 +1,4 @@
-<?php 
-include 'inc/header.php'; ?>
+<?php include 'inc/header.php'; ?>
 
 <div class="wrapper">
 	<h2>Sign In</h2>

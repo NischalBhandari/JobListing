@@ -15,7 +15,7 @@ class Database{
 		//Defines the Database type using 
 		// mysql:host=localhost;dbname=joblister;
 		$dsn = 'mysql:host='.$this->host.';dbname='.$this->dbname;
-
+		
 		// set options
 
 	// PDO is PHP Data Objects
@@ -29,10 +29,12 @@ class Database{
 			
 			//create a PDO instance
 			$this->dbh = new PDO($dsn, $this->user, $this-> pass, $options);
+			
 		} catch(PDOException $e){
 
 			//if error in creating PDO throw this error
 			$this->error = $e -> getMessage();
+			echo ($e);
 
 		}
 	}

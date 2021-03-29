@@ -1,10 +1,5 @@
 <?php include_once 'config/init.php'; ?>
-
-
-<?php
-
-$user = new User;
-
+<?php $user = new User;
 if(isset($_POST['submit'])){
 	$data=array();
 	$data['username'] = $_POST['username'];

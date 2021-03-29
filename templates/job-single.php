@@ -1,5 +1,4 @@
-<?php 
-include 'inc/header.php'; ?>
+<?php include 'inc/header.php'; ?>
 <h2 class = "page-header">
 <?php echo $job->job_title; ?> (<?php echo $job->location; ?>)
 </h2>

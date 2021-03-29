@@ -1,9 +1,5 @@
 <?php include_once 'config/init.php'; ?>
-
-
-<?php
-
-$job = new Job;
+<?php $job = new Job;
 $questions = new Quiz;
 
 //this is a template to the front page
